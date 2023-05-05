@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.navbar{
+    font-weight:bold ;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: rgb(26, 25, 25) !important;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.navbar li{
+    margin-right:60px;
+}
+.mfk .card img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    transition: .7s;
+}
+.mfk .card img:hover{
+    transform: scale(1.1);
+}
+.mfk .card{
+    display: flex;
+    background: #f2f2f2;
+    border: none;
+    position: relative;
+}
+.sales-h3{
+    display: flex;
+    justify-content: center;
+}
+.saless .card img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: .7s;
+}
+.saless .card img:hover{
+    transform: scale(1.1);
+}
+.saless .card{
+    display: flex;
+    background-color: #f2f2f2;
+    border:none;
+}
+/* Footer */
+footer{
+    background-color:#252423;
+    width: 100%;
+    height: 600px;
+}
+footer h6{
+    color: white;
+}
+footer ul, .icon{
+    list-style-type: none;
+    margin: auto;
+    font-weight:bold;
+}
+footer ul li a, .icon a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .7s;
+}
+.ftr{
+    margin-top: 100px;
+}
+.ftr ul li{
+    margin-top: 20px;
+}
+.icon{
+    text-align: center;
+}

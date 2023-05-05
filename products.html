@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ürünler | Riot Games Mağazası</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!-- my Css -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="image/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex mt-2" href="#">
+          <img
+            width="32px"
+            height="32px"
+            src="image/favicon-32x32.png"
+            alt="icon"
+            class="fav me-2"
+          />
+          <p>RIOT GAMES</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarSupportedContent"
+        >
+          <ul></ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >ÖNE ÇIKANLAR</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">GİYİM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">KOLEKSİYONLUK EŞYA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">SANAT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">AKSESUAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">İNDİRİM</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 search"
+              type="search"
+              placeholder="ARA"
+              aria-label="Search"
+            />
+            <a href="#"
+              ><i class="fas fa-cart-shopping text-white fs-5 mt-2"></i
+            ></a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Products -->
+    <div class="container">
+      <div class="giyim row mt-5">
+        <h5 class="text-center mb-5">GİYİM</h5>
+        <div class="mfk col-md-12">
+          <div class="row">
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim1.webp"
+                  alt="product1"
+                  class="text-center"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>VALORANT KIRIK BASKILI EŞOFMAN</h5>
+                <p id="u-price-17">795 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark "
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim2.webp"
+                  alt="product2"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>VALORANT OMEN UZUN KOLLU TİŞÖRTÜ (UNISEX)</h5>
+                <p id="u-price-18">525 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim3.webp"
+                  alt="product3"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>HAVAİ FİŞEK TEEMO ŞAPKASI</h5>
+                <p id="u-price-19">315 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim4.webp"
+                  alt="product4"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>
+                  CHAMPIONS 2021 "ART OF GREATNESS" UZUN KOLLU TİŞÖRTÜ(UNISEX)
+                </h5>
+                <p id="u-price-20">475 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim5.webp"
+                  alt="product5"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>
+                  2021 DÜNYA ŞAMPİYONASI KISA KESİM UZUN KOLLUY KADIN TİŞÖRTÜ
+                </h5>
+                <p id="u-price-21">420 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim6.webp"
+                  alt="product6"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>RUH ÇİÇEĞİ VAYNE UZUN KOLLU TİŞÖRTÜ (UNISEX)</h5>
+                <p id="u-price-22">635 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim7.webp"
+                  alt="product7"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>CHAMPIONS 2022 "FEAR/NONE" RÜZGARLIĞI</h5>
+                <p id="u-price-23">990 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim8.webp"
+                  alt="product8"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>UZAYIN RİTMİ "UNWORTHY" KAPÜŞONLUSU</h5>
+                <p id="u-price-24">895 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim9.webp"
+                  alt="product9"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>WILD RIFT ICONS HOODIE TAN (UNISEX)</h5>
+                <p id="u-price-25">795 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim10.webp"
+                  alt="product10"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>TRUE DAMAGE EKKO SOKAK STİLİ CEKET (SARI)</h5>
+                <p id="u-price-26">1379 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim11.webp"
+                  alt="product11"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>CHAMPIPNS 2021 "ART OF GREATNESS" TİŞÖRTÜ (UNISEX)</h5>
+                <p id="u-price-27">370 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/giyim12.webp"
+                  alt="product12"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>VALORANT REYNA TİŞÖRTÜ</h5>
+                <p id="u-price-28">315 TL</p>
+                <input
+                  class="mb-2 border-0 rounded-5 p-2"
+                  type="number"
+                  id="p-count-2"
+                  id="product-count-1"
+                  value="1"
+                />
+                <a name="1" class="add-btn btn btn-dark"
+                  >Sepete Ekle <i class="fas fa-right-from-bracket"> </i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="koleksiyon row mt-5">
+        <h5 class="text-center">KOLEKSİYON</h5>
+        <div class="mfk col-md-12 mt-5">
+          <div class="row">
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/product1.webp"
+                  alt="product1"
+                  class="text-center"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>
+                  THE MAGESEEKER : A LEAGUE OF LEGENDS STORY COLLECTOR'S EDITION
+                </h5>
+                <p id="u-price-29">1799 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/product2.webp"
+                  alt="product2"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>GOOD SMILE 1/7 ÖLÇEKLİ YILDIZ MUHAFIZI AHRI HEYKELİ</h5>
+                <p id="u-price-30">2299 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/product3.webp"
+                  alt="product3"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>YILDIZ MUHAFIZI KAI'SA TIBBERS RÜYASI FİGÜRÜ</h5>
+                <p id="u-price-31">3699 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/product4.webp"
+                  alt="product4"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>BEAST KINGDOM YILDIZ MUHAFIZI KAI'SA AKSİYON FİGÜRÜ</h5>
+                <p id="u-price-32">949 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k5.webp"
+                  alt="product5"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>VIZ VIZ PORO FİGÜRÜ</h5>
+                <p id="u-price-33">3699 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k6.webp"
+                  alt="product6"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>TAHM KENCH PELÜŞÜ</h5>
+                <p id="u-price-34">3199 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k7.webp"
+                  alt="product7"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>
+                  RUINED KING: A LEAGUE OF LEGENDS STORY COLLECTOR'S EDITION
+                </h5>
+                <p id="u-price-35">3800 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k8.webp"
+                  alt="product8"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>SINIRSIZ MORGANA HEYKELİ</h5>
+                <p id="u-price-36">3699 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k9.webp"
+                  alt="product9"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>GÖNÜL AVCISI YUUMİ FİGÜRÜ</h5>
+                <p id="u-price-37">3699 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k10.webp"
+                  alt="product10"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>BEAST KINGDOM MASTER CRAFT PORSELEN LUX HEYKELİ</h5>
+                <p id="u-price-38">3949 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k11.webp"
+                  alt="product11"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>RUH ÇİÇEĞİ KİNDRED HEYKELİ</h5>
+                <p id="u-price-39">4990 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+            <div class="fk col-lg-3 col-sm-6 mt-1">
+              <div class="card">
+                <img
+                  width="237"
+                  height="289"
+                  src="image/k12.webp"
+                  alt="product12"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <h5>CANAVAR KRALLIĞI DİORAMASI VIZZMI VE VIZZZIGGS SETİ</h5>
+                <p id="u-price-40">740 TL</p>
+                <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sanat row mt-5">
+        <h5 class="text-center">SANAT</h5>
+        <div class="mfk col-md-12 mt-5">
+            <div class="row">
+                <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s1.webp"
+                        alt="product1"
+                        class="text-center"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>YILDIZ MUHAFIZI 2022 LEAGUE OF LEGENDS ÇİN POSTERİ</h5>
+                      <p id="u-price-41">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+                  <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s2.webp"
+                        alt="product2"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>TFT HESAPLAŞMA POSTERİ</h5>
+                      <p id="u-price-42">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+                  <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s3.webp"
+                        alt="product3"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>YILDIZ MUHAFIZI 2022 LEAGUE OF LEGENDS POSTERİ</h5>
+                      <p id="u-price-43">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+                  <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s4.webp"
+                        alt="product4"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>VALORANT ÇİZGİ HİKAYE POSTERİ - ASLAN PARÇALARI</h5>
+                      <p id="u-price-44">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+                  <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s5.webp"
+                        alt="product5"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>YILDIZ MUHAFIZI 2022 WILD RIFT POSTERİ</h5>
+                      <p id="u-price-45">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+                  <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s6.webp"
+                        alt="product6"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>YILDIZ MUHAFIZI 2022 MANGA TARZI ÇARPIŞMA POSTERİ</h5>
+                      <p id="u-price-46">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+                  <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s7.webp"
+                        alt="product7"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>ZERİ POSTERLERİ</h5>
+                      <p id="u-price-47">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+                  <div class="fk col-lg-3 col-sm-6 mt-1">
+                    <div class="card">
+                      <img
+                      width="237"
+                      height="289"
+                        src="image/s8.webp"
+                        alt="product8"
+                      />
+                    </div>
+                    <div class="card-body mt-3">
+                      <h5>VEX POSTERLERİ</h5>
+                      <p id="u-price-48">230 TL</p>
+                      <input class=" mb-2 border-0 rounded-5 p-2 " type="number" id="p-count-2" id="product-count-1"  value="1">
+                      <a name="1" class="add-btn btn btn-dark">Sepete Ekle <i class="fas fa-right-from-bracket"> </i></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid">
+              <div class="row mt-5">
+                <div class="ftr col-md-3 icon">
+                  <a href="#"
+                    ><img src="image/favicon-32x32.png" alt="icon" />RIOT GAMES</a
+                  >
+                </div>
+                <div class="ftr col-md-3">
+                  <ul>
+                    <h6>Mağaza</h6>
+                    <li><a href="#">Giyim</a></li>
+                    <li><a href="#">Koleksiyonluk Eşya</a></li>
+                    <li><a href="#">Sanat</a></li>
+                    <li><a href="#">Aksesuarlar</a></li>
+                  </ul>
+                </div>
+                <div class="ftr col-md-3">
+                  <ul>
+                    <h6>Destek</h6>
+                    <li><a href="#">Sipariş Durumu</a></li>
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="#">Gönderim Bilgileri</a></li>
+                    <li><a href="#">Bize Ulaş</a></li>
+                    <li><a href="#">İade Politikası</a></li>
+                    <li><a href="#">Koleksiyon Rehberi</a></li>
+                    <li><a href="#">Riot Games Ürünün Doğrula</a></li>
+                    <li><a href="#">Dijital İçeriği Aç</a></li>
+                    <li><a href="#">Erişilebilirlik</a></li>
+                  </ul>
+                </div>
+                <div class="ftr col-md-3">
+                  <ul>
+                    <h6>Diller</h6>
+                    <ul class="ps-0">
+                      <li>
+                        <a href="#"><i class="fas fa-globe"></i>Türkiye</a>
+                      </li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Js/main.js"></script>
+  </body>
+</html>
